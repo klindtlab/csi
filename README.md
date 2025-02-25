@@ -8,7 +8,7 @@ This project offers identifiability results for a data generating process in whi
 Empirically we validate our identifiability results on numerical simulations, DisLib datasets and ImageNet-X.
 
 <p align="center">
-    <img src="https://github.com/klindtlab/csi/blob/main/assets/overview.png" alt="overview" width="200">
+    <img src="https://github.com/klindtlab/csi/blob/main/assets/overview.png" alt="overview" width="400">
 </p>
 
 ## Code Structure 
