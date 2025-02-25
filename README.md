@@ -18,7 +18,7 @@ Empirically we validate our findings on numerical simulations, DisLib datasets a
 ├── assets                       # assets for the README file 
 ├── simulation                   # numerical simulation (section 4.1)
 │   ├── scripts                  #   bash scripts to launch training
-│   ├── scripts                  #   package
+│   ├── src                      #   package
 │   ├── main_sup.py              #   entrypoint to launch supervised learning experiments (table 3)
 │   └── main_diet.py             #   entrypoint to launch self-supervised learning experiments (table 2)
 ├── dislib                       # DisLib datasets      (section 4.2)
