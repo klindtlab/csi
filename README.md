@@ -1,28 +1,26 @@
-# Clustered Sphere Identifiability (CSI)
+# Cross-Entropy is All You Need to Invert the Data Generating Process
 
-This repository contains the official codebase and supplementary materials for the paper **[Title]** by [Your Name and Co-authors]. The work explores ... and representation disentanglement.
-
-📄 **Read the paper**: [arxiv](https://arxiv.org/abs/2410.21869)
-
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Running Experiments](#running-experiments)
-  - [Training a Model](#training-a-model)
-  - [Visualizing Results](#visualizing-results)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+Official Python codebase to reproduce the work presented in **Cross-Entropy is All You Need to Inverts the Data Generating Process** [arxiv](https://arxiv.org/abs/2410.21869) by Patrik Reizinger, Alice Bizeul, Attila Juhos, Julia E. Vogt, Randall Balestriero, Wieland Brendel, David Klindt.
 
 ## About
 
-The **CSI** project aims to ... The repository includes:
-- Code to reproduce experiments presented in the paper.
+This project offers identifiability results for a data generating process in which latents are clustered on a unit hyper-sphere. We show how latent variables can be identified when observing either cluster (_supervised_ setting) or instance index (_self-supervised_ setting).
+Empirically we validate our identifiability results on numerical simulations, on the DisLib datasets and ImageNet-X.
 
-## Features
-- Designed for easy extension to related research topics.
+<p align="center">
+    <img src="https://github.com/klindtlab/csi/blob/main/assets/overview.png" alt="overview" width="200">
+</p>
+
+## Code Structure 
+
+```
+.
+├── assets                       # assets for the README file 
+├── simulation                   # numerical simulation (section 4.1)
+├── dislib                       # DisLib datasets      (section 4.2)
+├── simulation                   # ImageNet-X dataset   (section 4.3)
+└── requirements.txt             # installation requirements
+```
 
 ## Installation
 
