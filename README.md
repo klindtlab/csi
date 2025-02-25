@@ -21,6 +21,8 @@ Empirically we validate our findings on numerical simulations, DisLib datasets a
 ├── simulation                   # ImageNet-X dataset   (section 4.3)
 └── requirements.txt             # installation requirements
 ```
+Please note that the code for numerical simulations is adapted from the [CL-ICA](https://github.com/brendel-group/cl-ica) repository.
+
 
 ## Installation
 
