@@ -4,11 +4,11 @@ Official Python codebase to reproduce the work presented in **Cross-Entropy is A
 
 ## About
 
-This project offers identifiability results for a data generating process in which latents are clustered on a unit hyper-sphere. We show how latent variables can be identified when observing either cluster (_supervised_ setting) or instance index (_self-supervised_ setting).
-Empirically we validate our identifiability results on numerical simulations, DisLib datasets and ImageNet-X.
+This project offers identifiability results for a data generating process in which latents are clustered on a unit hyper-sphere. We show how latent variables can be identified when observing either cluster (_supervised_ setting) or instance (_self-supervised_ setting) index.
+Empirically we validate our findings on numerical simulations, DisLib datasets and the ImageNet-X dataset.
 
 <p align="center">
-    <img src="https://github.com/klindtlab/csi/blob/main/assets/overview.png" alt="overview" width="400">
+    <img src="https://github.com/klindtlab/csi/blob/main/assets/overview.png" alt="overview" width="800">
 </p>
 
 ## Code Structure 
